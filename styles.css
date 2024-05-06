@@ -4,7 +4,10 @@
 
 
 - Font weights
-
+Default: 400
+Medium: 500
+Semi-bold: 600
+Bold: 700
 
 - Line heights
 
@@ -36,6 +39,7 @@ Medium:
 
 --- 07 WHITESPACE
 - Spacing system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
 */
 
 /* Font import */
@@ -67,3 +71,51 @@ body {
 /******************************/
 /* GENERAL REUSABLE COMPONENTS */
 /******************************/
+.container {
+  /* 1200px */
+  max-width: 120rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  column-gap: 6.4rem;
+  row-gap: 9.6rem;
+}
+
+.grid:not(:last-child) {
+  margin-bottom: 9.6rem;
+}
+
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid--4-cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.grid--5-cols {
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.grid--span-2-cols {
+  grid-column: 2 / -1;
+}
+
+.heading-primary {
+  font-weight: 700;
+  color: #212529;
+  letter-spacing: -1.5px;
+}
+
+.heading-primary {
+  font-size: 6.4rem;
+  line-height: 1.05;
+  margin-bottom: 3.2rem;
+}
