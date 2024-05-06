@@ -1,0 +1,69 @@
+/*
+--- 01 TYPOGRAPHY SYSTEM
+- Font sizes (px)
+
+
+- Font weights
+
+
+- Line heights
+
+
+- Letter spacing
+
+
+--- 02 COLORS
+- Primary: #FF9B3D
+- Tints:
+
+
+- Shades: 
+#4c2e12
+
+- Accents:
+#48E5C2
+
+- Greys:
+#212529
+
+
+--- 05 SHADOWS
+
+
+--- 06 BORDER-RADIUS
+Default: 
+Medium: 
+
+--- 07 WHITESPACE
+- Spacing system (px)
+*/
+
+/* Font import */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Paytone+One&display=swap");
+
+/* Color variables */
+:root {
+  --main-color: #ff9b3d;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #212529;
+}
+
+/******************************/
+/* GENERAL REUSABLE COMPONENTS */
+/******************************/
