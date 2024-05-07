@@ -9,7 +9,6 @@
 
 .landing {
   /* Sets the max width */
-
   /* Puts padding on both left and right */
   padding: 0 3.2rem;
   /* Puts the contents in the foreground */
@@ -22,14 +21,19 @@
   /* Sets the container's width and height */
   width: 100%;
   height: 100%;
+
+  display: grid;
+  grid-template-columns: 40fr 60fr;
+  column-gap: 3.2rem;
 }
 
 .landing-img-box {
   align-self: center;
+  justify-self: end;
 }
 
 .landing-img {
-  height: 35rem;
+  height: 40rem;
 }
 
 .landing-text-box {
@@ -37,23 +41,31 @@
   align-self: center;
 }
 
+.landing-hello {
+  color: var(--lightest-color);
+  font-size: 3rem;
+  font-weight: 500;
+  padding-bottom: 0.8rem;
+}
+
 .first-name {
   color: var(--main-color);
-  font-size: 8.6rem;
+  font-size: 7rem;
 }
 
 .second-name {
   color: var(--secondary-accent-color);
-  font-size: 6.2rem;
-}
-
-.landing-hello {
-  color: var(--lightest-color);
-  font-size: 4.4rem;
-  font-weight: 500;
+  font-size: 5.2rem;
+  padding-bottom: 1.6rem;
 }
 
 .landing-description {
   color: var(--lightest-color);
   font-size: 2rem;
+  padding-bottom: 2.4rem;
+}
+
+.landing-icon {
+  height: 2.4rem;
+  width: 2.4rem;
 }
