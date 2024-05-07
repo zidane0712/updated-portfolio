@@ -78,12 +78,14 @@ body {
 .btn--full:link,
 .btn--full:visited {
   background-color: var(--primary-accent-color);
-  color: var(--tertiary-tint-color);
+  color: var(--gray-color);
 }
 
 .btn--full:hover,
 .btn--full:active {
-  background-color: var(--secondary-accent-color);
+  background-color: var(--gray-color);
+  box-shadow: inset 0 0 0 3px var(--primary-accent-color);
+  color: var(--primary-accent-color);
 }
 
 .btn--outline:link,
