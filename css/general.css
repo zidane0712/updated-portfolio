@@ -4,10 +4,14 @@
 /* Color variables */
 :root {
   --main-color: #ff9b3d;
-  --secondary-color: #ffaf64;
-  --darkest-color: #212529;
-  --accent-color: #48e5c2;
+  --gray-color: #212529;
   --lightest-color: #ffebd8;
+
+  --primary-accent-color: #db504a;
+  --secondary-accent-color: #c54843;
+
+  --primary-tint-color: #ffaf64;
+  --tertiary-tint-color: #ffc38b;
 }
 
 /* Resetting CSS properties */
@@ -28,7 +32,7 @@ body {
   font-family: "Montserrat", sans-serif;
   line-height: 1;
   font-weight: 400;
-  color: #212529;
+  color: var(--gray-color);
 }
 
 /******************************/
@@ -51,4 +55,46 @@ body {
 .heading-primary {
   font-family: "Paytone One", sans-serif;
   text-transform: uppercase;
+}
+
+.btn,
+.btn:link,
+.btn:visited {
+  display: inline-block;
+
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: 500;
+  padding: 0.8rem 4.2rem;
+  border-radius: 20px;
+
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+
+  transition: all 0.3s;
+}
+
+.btn--full:link,
+.btn--full:visited {
+  background-color: var(--primary-accent-color);
+  color: var(--tertiary-tint-color);
+}
+
+.btn--full:hover,
+.btn--full:active {
+  background-color: var(--secondary-accent-color);
+}
+
+.btn--outline:link,
+.btn--outline:visited {
+  background-color: var(--tertiary-tint-color);
+  color: var(--gray-color);
+}
+
+.btn--outline:hover,
+.btn--outline:active {
+  background-color: var(--gray-color);
+  box-shadow: inset 0 0 0 3px var(--tertiary-tint-color);
+  color: var(--tertiary-tint-color);
 }

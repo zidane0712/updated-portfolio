@@ -15,26 +15,25 @@
 
 
 02 COLORS
-    Primary: #FF9B3D
-    Secondary: #FFAF64
-    Tints:
+    --main-color: #ff9b3d;
+    --gray-color: #212529;
+    --lightest-color: #ffebd8;
 
+    --primary-accent-color: #db504a;
+    --secondary-accent-color: #c54843;
 
-    Shades: 
-      #4c2e12
+    --primary-tint-color: #ffaf64;
+    --tertiary-tint-color: #ffc38b;
 
-    Accents:
-      #48E5C2
-
-    Greys:
-      #212529
+    --primary-shade-color:;
+    --secondary-shade-color:;
 
 
 05 SHADOWS
 
 
 06 BORDER-RADIUS
-    Default: 
+    Default: 9px
     Medium: 
 
 07 WHITESPACE
