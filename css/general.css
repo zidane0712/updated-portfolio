@@ -75,27 +75,27 @@ body {
   transition: all 0.3s;
 }
 
-.btn--full:link,
-.btn--full:visited {
-  background-color: var(--primary-accent-color);
-  color: var(--gray-color);
-}
-
-.btn--full:hover,
-.btn--full:active {
-  background-color: var(--gray-color);
-  box-shadow: inset 0 0 0 3px var(--primary-accent-color);
-  color: var(--primary-accent-color);
-}
-
 .btn--outline:link,
 .btn--outline:visited {
-  background-color: var(--tertiary-tint-color);
+  background-color: var(--primary-accent-color);
   color: var(--gray-color);
 }
 
 .btn--outline:hover,
 .btn--outline:active {
+  background-color: var(--gray-color);
+  box-shadow: inset 0 0 0 3px var(--primary-accent-color);
+  color: var(--primary-accent-color);
+}
+
+.btn--full:link,
+.btn--full:visited {
+  background-color: var(--tertiary-tint-color);
+  color: var(--gray-color);
+}
+
+.btn--full:hover,
+.btn--full:active {
   background-color: var(--gray-color);
   box-shadow: inset 0 0 0 3px var(--tertiary-tint-color);
   color: var(--tertiary-tint-color);

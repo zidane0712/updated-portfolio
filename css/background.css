@@ -1,22 +1,6 @@
-* {
-  margin: 0px;
-  padding: 0px;
-}
-
-.context {
-  width: 100%;
-  position: absolute;
-  top: 50vh;
-  z-index: 9999;
-}
-
-.area {
-  background: #4e54c8;
-  background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);
-  width: 100%;
-  height: 100vh;
-}
-
+/******************************/
+/*     MOVING BACKGROUND      */
+/******************************/
 .circles {
   position: absolute;
   top: 0;
@@ -32,7 +16,7 @@
   list-style: none;
   width: 20px;
   height: 20px;
-  background: rgba(255, 255, 255, 0.2);
+  background: rgb(255, 235, 216, 0.3);
   animation: animate 25s linear infinite;
   bottom: -150px;
 }
