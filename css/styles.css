@@ -1,0 +1,50 @@
+/******************************/
+/*        SECTION HERO        */
+/******************************/
+.section-landing {
+  padding: 4.8rem 0 9.6rem 0;
+  background-color: var(--darkest-color);
+  height: 100vh;
+}
+
+.landing {
+  /* Sets the max width */
+  max-width: 130rem;
+  /* Centers the landing container in the screen */
+  margin: auto auto;
+  /* Puts padding on both left and right */
+  padding: 0 3.2rem;
+}
+
+.landing-img-box {
+  align-self: center;
+}
+
+.landing-img {
+}
+
+.landing-text-box {
+  grid-column: 2 / -1;
+  align-self: center;
+}
+
+.first-name {
+  color: var(--main-color);
+  font-size: 8.6rem;
+}
+
+.second-name {
+  color: var(--secondary-color);
+  font-size: 6.2rem;
+}
+
+.landing-hello {
+  color: var(--lightest-color);
+  font-size: 4.4rem;
+  font-weight: 500;
+}
+
+.landing-description {
+  color: var(--lightest-color);
+  font-size: 2rem;
+}

@@ -1,0 +1,54 @@
+/* Font import */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Paytone+One&display=swap");
+
+/* Color variables */
+:root {
+  --main-color: #ff9b3d;
+  --secondary-color: #ffaf64;
+  --darkest-color: #212529;
+  --accent-color: #48e5c2;
+  --lightest-color: #ffebd8;
+}
+
+/* Resetting CSS properties */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* font-size is done this way for ease of adjusting */
+/* overflow-x hidden is for the nav menu at smaller screens */
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #212529;
+}
+
+/******************************/
+/* GENERAL REUSABLE COMPONENTS */
+/******************************/
+.grid {
+  display: grid;
+  column-gap: 6.4rem;
+  row-gap: 9.6rem;
+}
+
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.heading-primary {
+  font-family: "Paytone One", sans-serif;
+  text-transform: uppercase;
+}
