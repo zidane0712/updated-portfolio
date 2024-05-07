@@ -32,7 +32,8 @@ body {
   font-family: "Montserrat", sans-serif;
   line-height: 1;
   font-weight: 400;
-  color: var(--gray-color);
+  color: var(--lightest-color);
+  background-color: var(--gray-color);
 }
 
 /******************************/
@@ -90,15 +91,15 @@ body {
 
 .btn--full:link,
 .btn--full:visited {
-  background-color: var(--tertiary-tint-color);
+  background-color: var(--lightest-color);
   color: var(--gray-color);
 }
 
 .btn--full:hover,
 .btn--full:active {
   background-color: var(--gray-color);
-  box-shadow: inset 0 0 0 3px var(--tertiary-tint-color);
-  color: var(--tertiary-tint-color);
+  box-shadow: inset 0 0 0 3px var(--lightest-color);
+  color: var(--lightest-color);
 }
 
 /******************************/
