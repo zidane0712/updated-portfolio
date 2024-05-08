@@ -1,0 +1,26 @@
+/******************************/
+/*       SECTION ABOUT        */
+/******************************/
+.section-about {
+  padding: 4.8rem 0 4.8rem 0;
+  background-color: var(--lightest-color);
+  color: #000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.about {
+  padding: 6.4rem 3.2rem 0 3.2rem;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 130rem;
+
+  display: grid;
+  grid-template-columns: 62fr 38fr;
+  column-gap: 3.2rem;
+}

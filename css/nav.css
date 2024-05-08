@@ -10,8 +10,12 @@
   position: relative;
   top: 0;
   background-color: transparent;
-  padding: 4.8rem;
+  padding: 2.4rem 4.8rem;
   z-index: 9999;
+}
+
+.header-about {
+  background-color: var(--gray-color);
 }
 
 .logo {
