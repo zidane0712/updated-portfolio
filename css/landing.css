@@ -45,7 +45,7 @@
 }
 
 .landing-hello {
-  color: var(--tertiary-tint-color);
+  color: var(--lighter-color);
   font-size: 3rem;
   font-weight: 500;
   padding-bottom: 0.8rem;
@@ -57,15 +57,17 @@
 }
 
 .second-name {
-  color: var(--secondary-accent-color);
-  font-size: 4.4rem;
+  color: var(--secondary-color);
+  font-size: 6.2rem;
   padding-bottom: 1.6rem;
+  margin-top: -1.4rem;
 }
 
 .landing-description {
-  color: var(--tertiary-tint-color);
+  color: var(--lighter-color);
   font-size: 1.8rem;
   padding-bottom: 2.4rem;
+  font-weight: 500;
 }
 
 .landing-icon {

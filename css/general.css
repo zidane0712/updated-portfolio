@@ -3,17 +3,11 @@
 
 /* Color variables */
 :root {
-  --main-color: #ff9b3d;
+  --main-color: #ff7f11;
+  --secondary-color: #db504a;
   --gray-color: #212529;
-  --lightest-color: #ffebd8;
-
-  --primary-accent-color: #db504a;
-  --secondary-accent-color: #c54843;
-
-  --primary-tint-color: #ffaf64;
-  --tertiary-tint-color: #ffc38b;
-
-  --primary-shade-color: #e8ebef;
+  --lightest-color: #e8ebef;
+  --lighter-color: #babcbf;
 }
 
 /* Resetting CSS properties */
@@ -78,19 +72,6 @@ body {
   transition: all 0.3s;
 }
 
-.btn--outline:link,
-.btn--outline:visited {
-  background-color: var(--primary-accent-color);
-  color: var(--gray-color);
-}
-
-.btn--outline:hover,
-.btn--outline:active {
-  background-color: var(--gray-color);
-  box-shadow: inset 0 0 0 3px var(--primary-accent-color);
-  color: var(--primary-accent-color);
-}
-
 .btn--full:link,
 .btn--full:visited {
   background-color: var(--lightest-color);
@@ -102,6 +83,19 @@ body {
   background-color: var(--gray-color);
   box-shadow: inset 0 0 0 3px var(--lightest-color);
   color: var(--lightest-color);
+}
+
+.btn--outline:link,
+.btn--outline:visited {
+  background-color: var(--main-color);
+  color: var(--gray-color);
+}
+
+.btn--outline:hover,
+.btn--outline:active {
+  background-color: var(--gray-color);
+  box-shadow: inset 0 0 0 3px var(--main-color);
+  color: var(--main-color);
 }
 
 /******************************/

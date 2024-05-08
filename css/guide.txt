@@ -15,19 +15,12 @@
 
 
 02 COLORS
-    --main-color: #ff9b3d;
+    --main-color: #FF7F11;
+    --secondary-color:#db504a
     --gray-color: #212529;
-    --lightest-color: #ffebd8;
-
-    --primary-accent-color: #db504a;
-    --secondary-accent-color: #c54843;
-
-    --primary-tint-color: #ADF1D2;
-    --tertiary-tint-color: #ffc38b;
-
-    --primary-shade-color:#804e1f; 
-    --secondary-shade-color:;
- 
+    --lightest-color: #E8EBEF
+    --lighter-color:#babcbf
+    12.90
 
 05 SHADOWS
 
