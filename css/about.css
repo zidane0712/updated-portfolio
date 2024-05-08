@@ -24,3 +24,19 @@
   grid-template-columns: 62fr 38fr;
   column-gap: 3.2rem;
 }
+
+.heading-secondary--first,
+.heading-secondary--second {
+  font-size: 6.2rem;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+.heading-secondary--first {
+  color: var(--main-color);
+}
+
+.heading-secondary--second {
+  color: var(--secondary-accent-color);
+  margin-top: -2rem;
+}

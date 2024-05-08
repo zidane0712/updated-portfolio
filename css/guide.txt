@@ -22,10 +22,10 @@
     --primary-accent-color: #db504a;
     --secondary-accent-color: #c54843;
 
-    --primary-tint-color: #ffaf64;
+    --primary-tint-color: #ADF1D2;
     --tertiary-tint-color: #ffc38b;
 
-    --primary-shade-color:;
+    --primary-shade-color:#804e1f; 
     --secondary-shade-color:;
  
 
