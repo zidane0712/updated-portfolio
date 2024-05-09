@@ -2,11 +2,13 @@
 /*       SECTION ABOUT        */
 /******************************/
 .section-about {
-  padding-top: 3.2rem;
+  /* padding: 6.4rem 0; */
   background-color: var(--lightest-color);
   color: var(--gray-color);
+  height: 90vh;
 
   display: flex;
+  justify-content: center;
   align-items: center;
   flex-direction: column;
 }
@@ -108,4 +110,47 @@
 
 .about-img {
   height: 450px;
+}
+
+/******************************/
+/*       SECTION TOOLS        */
+/******************************/
+.section-tools {
+  padding-top: 3.2rem;
+  background-color: var(--lightest-color);
+  color: var(--gray-color);
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 6.4rem;
+}
+
+.grid-tools {
+  display: grid;
+  column-gap: 2.4rem;
+  row-gap: 9.6rem;
+}
+
+.tools-img {
+  height: 12rem;
+  width: 12rem;
+}
+
+/******************************/
+/*    SECTION EXPERIENCES     */
+/******************************/
+.section-experiences {
+  padding-top: 3.2rem;
+  background-color: var(--lightest-color);
+  color: var(--gray-color);
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 6.4rem;
+}
+
+.experiences {
+  width: 130rem;
 }

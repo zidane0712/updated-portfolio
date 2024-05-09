@@ -49,6 +49,13 @@ body {
   grid-template-columns: repeat(3, 1fr);
 }
 
+.grid--7-cols {
+  grid-template-columns: repeat(7, 1fr);
+}
+.grid--5-cols {
+  grid-template-columns: repeat(5, 1fr);
+}
+
 .heading-primary {
   font-family: "Paytone One", sans-serif;
   text-transform: uppercase;
@@ -98,9 +105,20 @@ body {
   color: var(--main-color);
 }
 
+.heading-tertiary {
+  font-size: 5.2rem;
+  text-transform: uppercase;
+  font-weight: 800;
+  color: var(--gray-color);
+}
+
 /******************************/
 /* HELPER / SETTINGS CLASSES  */
 /******************************/
 .margin-right-sm {
   margin-right: 3.2rem !important;
+}
+
+.margin-bottom-sm {
+  margin-bottom: 3.2rem !important;
 }
