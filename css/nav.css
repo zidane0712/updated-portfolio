@@ -14,12 +14,16 @@
   z-index: 9999;
 }
 
-.header-about {
+.header-others {
   background-color: var(--gray-color);
 }
 
 .logo {
   height: 5.2rem;
+}
+
+.header-logo:hover .logo {
+  content: url("../img/Logo1.png");
 }
 
 .main-nav-list {
