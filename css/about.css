@@ -5,7 +5,7 @@
   /* padding: 6.4rem 0; */
   background-color: var(--lightest-color);
   color: var(--gray-color);
-  height: 90vh;
+  height: 80vh;
 
   display: flex;
   justify-content: center;
@@ -153,4 +153,24 @@
 
 .experiences {
   width: 130rem;
+}
+
+.experience-header {
+  font-size: 2.4rem;
+  font-weight: 400;
+  margin-bottom: 1.2rem;
+}
+
+.experience {
+  margin: 4.8rem;
+}
+
+.experience-header span {
+  font-weight: 600;
+}
+
+.experience-content {
+  font-size: 1.6rem;
+  padding: 1.2rem 0 0 1.6rem;
+  line-height: 1.2;
 }
