@@ -1,0 +1,91 @@
+/******************************/
+/*        SECTION CONTACT     */
+/******************************/
+.section-contact {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.grid--contact {
+  grid-template-columns: 45fr 55fr;
+}
+
+.contact-form {
+  background-color: var(--secondary-color);
+  border-radius: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 0 1.8rem 1.8rem;
+  gap: 1.2rem;
+}
+
+.form label {
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+.contact-form input {
+  height: 4rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 1.8rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: var(--gray-color);
+}
+
+.heading-tertiary {
+  text-align: center;
+  padding: 3.2rem 0;
+  color: var(--lightest-color);
+}
+
+.contact-design {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contact-img {
+  width: 200px;
+}
+
+.heading-secondary--first,
+.heading-secondary--second {
+  font-size: 7rem;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+.heading-secondary--first {
+  color: var(--main-color);
+}
+
+.heading-secondary--second {
+  color: var(--secondary-color);
+  margin-top: -2rem;
+}
+
+.contact-socials {
+  margin: 2.4rem 0;
+}
+
+.contact-me {
+  font-size: 1.8rem;
+}
+
+.social {
+  text-decoration: none;
+  color: var(--lightest-color);
+  width: 5.2rem;
+  height: 5.2rem;
+  padding: 1.2rem;
+}
