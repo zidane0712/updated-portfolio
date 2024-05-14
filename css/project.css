@@ -1,3 +1,6 @@
+/******************************/
+/*      SECTION PROJECTS      */
+/******************************/
 .section-projects {
   /* padding: 6.4rem 0; */
   background-color: var(--lightest-color);
@@ -23,6 +26,8 @@
   overflow: hidden;
   transition: all 0.4s;
   background-color: var(--gray-color);
+
+  text-decoration: none;
 }
 
 .project:hover {
@@ -42,20 +47,48 @@
   margin-bottom: 1.2rem;
   display: flex;
   gap: 0.4rem;
+
+  display: inline-flex;
+  flex-wrap: wrap;
 }
 
 .tag {
   display: inline-block;
   padding: 0.4rem 0.8rem;
-  font-size: 1.2rem;
+  font-size: 1rem;
   text-transform: uppercase;
   color: #333;
   border-radius: 100px;
   font-weight: 600;
+  margin: 0.4rem 0;
 }
 
 .tag--responsive {
-  background-color: #51cf66;
+  background-color: #22e943;
+}
+.tag--html {
+  background-color: #e9e622;
+}
+.tag--css {
+  background-color: #22bbe9;
+}
+.tag--react {
+  background-color: #e922e9;
+}
+.tag--ecommerce {
+  background-color: #e99922;
+}
+.tag--mongo {
+  background-color: #e92222;
+}
+.tag--bootstrap {
+  background-color: #e9225e;
+}
+.tag--landing {
+  background-color: #e98222;
+}
+.tag--javascript {
+  background-color: #22e92c;
 }
 
 .project-title {
@@ -71,4 +104,54 @@
   line-height: 2rem;
   font-weight: 400;
   color: var(--lightest-color);
+}
+
+/******************************/
+/*  SECTION OTHER PROJECTS    */
+/******************************/
+.section-other-projects {
+  /* padding: 6.4rem 0; */
+  background-color: var(--lightest-color);
+  color: var(--gray-color);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  padding-bottom: 4.8rem;
+}
+
+.other-projects {
+  width: 130rem;
+  padding-bottom: 3.2rem;
+}
+
+.span--2 {
+  grid-column: 2 / -1;
+}
+
+.other-project-img {
+  width: 100%;
+  border-radius: 20px;
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+}
+
+.other-project-content-box {
+  display: flex;
+  align-self: center;
+  flex-direction: column;
+}
+
+.other-project-title {
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding-bottom: 2rem;
+}
+
+.other-project-description {
+  font-size: 1.6rem;
+  line-height: 2rem;
+  font-weight: 400;
 }
