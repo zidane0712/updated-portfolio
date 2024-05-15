@@ -19,11 +19,17 @@
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
     ></script>
 
+    <!-- EmailJS -->
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+
+    <!-- JavaScript -->
+    <script src="./js/contact.js"></script>
+
     <title>Contact Me | Outside-the-box</title>
   </head>
   <body>
     <header class="header header-others">
-      <a href="#" class="header-logo">
+      <a href="./index.html" class="header-logo">
         <img class="logo" alt="Dustin's Portfolio" src="./img/Logo.png" />
       </a>
 
@@ -46,7 +52,7 @@
         <div class="contact grid grid--contact">
           <div class="contact-form">
             <h3 class="heading-tertiary">Contact Me</h3>
-            <form class="form">
+            <form class="form" onsubmit="sendEmail(event)">
               <label for="name">Name:</label>
               <input type="text" id="name" name="name" required />
 
@@ -60,11 +66,13 @@
               <textarea
                 id="message"
                 name="message"
-                rows="6"
+                rows="4"
                 required
               ></textarea>
 
-              <button class="btn-submit">Submit</button>
+              <div class="btn-container">
+                <button type="submit" class="btn-submit">Submit</button>
+              </div>
             </form>
           </div>
           <div class="contact-design">

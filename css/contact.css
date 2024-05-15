@@ -9,6 +9,10 @@
   flex-direction: column;
 }
 
+.contact {
+  width: 130rem;
+}
+
 .grid--contact {
   grid-template-columns: 45fr 55fr;
 }
@@ -22,16 +26,16 @@
   display: flex;
   flex-direction: column;
   padding: 0 1.8rem 1.8rem;
-  gap: 1.2rem;
+  gap: 0.8rem;
 }
 
 .form label {
-  font-size: 1.8rem;
+  font-size: 1.4rem;
   font-weight: 500;
 }
 
 .contact-form input {
-  height: 4rem;
+  height: 3rem;
 }
 
 .contact-form input,
@@ -48,6 +52,38 @@
   color: var(--lightest-color);
 }
 
+.btn-container {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-submit {
+  display: inline-block;
+
+  width: 15rem;
+
+  background-color: var(--lightest-color);
+  color: var(--gray-color);
+
+  font-size: 2rem;
+  font-weight: 500;
+  padding: 0.8rem 3.2rem;
+  margin: 1.8rem;
+  border-radius: 20px;
+
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+
+  transition: all 0.3s;
+}
+
+.btn-submit:hover {
+  background-color: var(--secondary-color);
+  box-shadow: inset 0 0 0 3px var(--lightest-color);
+  color: var(--lightest-color);
+}
+
 .contact-design {
   display: flex;
   flex-direction: column;
@@ -60,7 +96,7 @@
 
 .heading-secondary--first,
 .heading-secondary--second {
-  font-size: 7rem;
+  font-size: 6.2rem;
   text-transform: uppercase;
   font-weight: 800;
 }
