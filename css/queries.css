@@ -1,0 +1,64 @@
+/************************************/
+/* BELOW 1355px (Smaller desktops) */
+/************************************/
+@media (max-width: 85em) {
+  /* Landing Page */
+  .landing {
+    grid-template-columns: 35fr 65fr;
+  }
+
+  .landing-img {
+    height: 30rem;
+  }
+
+  /* About Page */
+  .section-about {
+    height: 90vh;
+  }
+
+  .section-tools {
+    padding-top: 0;
+  }
+
+  .section-experiences {
+    padding-top: 6.4rem;
+  }
+
+  .experience {
+    margin: 3.2rem 4.8rem 4.8rem 4.8rem;
+  }
+
+  .experience-header {
+    font-size: 3rem;
+  }
+
+  .experience-content {
+    font-size: 2rem;
+  }
+
+  /* Project Page */
+  .tag {
+    font-size: 1.2rem;
+  }
+
+  .project-title {
+    font-size: 2.4rem;
+  }
+
+  /* Contact Page */
+  .contact {
+    width: 120rem;
+  }
+  .contact-form input {
+    padding: 0 1.8rem;
+  }
+
+  .heading-secondary--first,
+  .heading-secondary--second {
+    font-size: 5.2rem;
+  }
+
+  .heading-secondary--second {
+    margin-top: -1rem;
+  }
+}
