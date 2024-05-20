@@ -2,7 +2,6 @@
 /*       SECTION ABOUT        */
 /******************************/
 .section-about {
-  /* padding: 6.4rem 0; */
   background-color: var(--lightest-color);
   color: var(--gray-color);
   height: 80vh;
