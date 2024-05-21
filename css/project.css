@@ -2,7 +2,7 @@
 /*      SECTION PROJECTS      */
 /******************************/
 .section-projects {
-  /* padding: 6.4rem 0; */
+  padding: 6.4rem 0;
   background-color: var(--lightest-color);
   color: var(--gray-color);
 
@@ -40,6 +40,9 @@
 }
 
 .project-content {
+  display: grid;
+  height: 50%;
+  grid-template-rows: 22fr 18fr 60fr;
   padding: 2rem;
 }
 
@@ -53,7 +56,7 @@
 }
 
 .tag {
-  display: inline-block;
+  display: inline-flex;
   padding: 0.4rem 0.8rem;
   font-size: 1rem;
   text-transform: uppercase;
@@ -61,6 +64,7 @@
   border-radius: 100px;
   font-weight: 600;
   margin: 0.4rem 0;
+  align-self: flex-start;
 }
 
 .tag--responsive {
@@ -97,6 +101,8 @@
   font-weight: 600;
   padding-bottom: 2rem;
   color: var(--main-color);
+
+  align-self: center;
 }
 
 .project-description {

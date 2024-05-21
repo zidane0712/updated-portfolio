@@ -4,17 +4,23 @@
 .section-about {
   background-color: var(--lightest-color);
   color: var(--gray-color);
-  height: 80vh;
+  height: 100vh;
 
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+
+  padding-top: 3.2rem;
+}
+
+.about-contents {
+  padding-top: 3.2rem;
 }
 
 .heading-secondary--first,
 .heading-secondary--second {
-  font-size: 7rem;
+  font-size: 7.4rem;
   text-transform: uppercase;
   font-weight: 800;
 }
@@ -28,7 +34,7 @@
   margin-top: -2rem;
 }
 
-.about-contents {
+.about--grid {
   width: 130rem;
 
   display: grid;
@@ -37,60 +43,87 @@
 }
 
 .subheading {
-  font-size: 3rem;
-  padding-left: 2rem;
-
   display: flex;
   align-items: center;
-}
 
-.subheading-bold {
-  font-weight: 600;
-  line-height: 1.6;
+  font-size: 2rem;
+
+  padding: 1.6rem 0 1.6rem 2rem;
 }
 
 .subheading-dynamic {
-  margin-left: 10px;
-  line-height: 90px;
-  height: 90px;
-  overflow: hidden;
-}
-
-.subheading-dynamic li {
-  list-style: none;
   position: relative;
-  top: 0;
-  animation: slide 12s steps(4) infinite;
+  font-weight: 600;
 }
 
-.subheading-dynamic li {
-  position: relative;
+.subheading-dynamic::before {
+  content: "an Engineer";
+  animation: words 20s infinite;
 }
 
-.subheading-dynamic li::after {
+.subheading-dynamic::after {
   content: "";
   position: absolute;
-  left: 0;
+  width: calc(100% + 8px);
   height: 100%;
-  width: 100%;
   background-color: var(--lightest-color);
-  border-left: 1px solid var(--gray-color);
-  animation: typing 3s steps(9) infinite;
+  border-left: 2px solid var(--gray-color);
+  right: -8px;
+  animation: cursor 0.8s infinite, typing 20s steps(14) infinite;
+}
+
+@keyframes cursor {
+  to {
+    border-left: 2px solid gray;
+  }
+}
+
+@keyframes words {
+  0%,
+  20% {
+    content: "a Creative";
+  }
+  21%,
+  40% {
+    content: "an Engineer";
+  }
+  41%,
+  60% {
+    content: "a Developer";
+  }
+  61%,
+  80% {
+    content: "a Designer";
+  }
+  81%,
+  100% {
+    content: "a Dreamer";
+  }
 }
 
 @keyframes typing {
+  10%,
+  15%,
+  30%,
+  35%,
+  50%,
+  55%,
+  70%,
+  75%,
+  90%,
+  95% {
+    width: 0;
+  }
+  5%,
+  20%,
+  25%,
   40%,
-  60% {
-    left: calc(100% + 30px);
-  }
-  100% {
-    left: 0;
-  }
-}
-
-@keyframes slide {
-  100% {
-    top: -360px;
+  45%,
+  60%,
+  65%,
+  80%,
+  85% {
+    width: calc(100% + 8px);
   }
 }
 
@@ -108,7 +141,7 @@
 }
 
 .about-img {
-  height: 450px;
+  height: 350px;
 }
 
 /******************************/
@@ -127,8 +160,10 @@
 
 .grid-tools {
   display: grid;
-  column-gap: 2.4rem;
-  row-gap: 9.6rem;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  column-gap: 3.2rem;
+  row-gap: 1.2rem;
 }
 
 .tools-img {
@@ -140,13 +175,14 @@
 /*    SECTION EXPERIENCES     */
 /******************************/
 .section-experiences {
-  padding-top: 3.2rem;
   background-color: var(--lightest-color);
   color: var(--gray-color);
 
   display: flex;
   align-items: center;
   flex-direction: column;
+
+  padding-top: 3.2rem;
   padding-bottom: 6.4rem;
 }
 

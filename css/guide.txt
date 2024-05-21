@@ -26,7 +26,6 @@
     --gray-color: #212529;
     --lightest-color: #E8EBEF
     --lighter-color:#babcbf
-    12.90
 
 05 SHADOWS
 

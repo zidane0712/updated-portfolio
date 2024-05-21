@@ -2,11 +2,12 @@
 /*        SECTION CONTACT     */
 /******************************/
 .section-contact {
-  height: 80vh;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  background-color: var(--gray-color);
 }
 
 .contact {
@@ -15,6 +16,7 @@
 
 .grid--contact {
   grid-template-columns: 45fr 55fr;
+  padding-top: 5rem;
 }
 
 .contact-form {
