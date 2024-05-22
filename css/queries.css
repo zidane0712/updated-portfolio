@@ -98,6 +98,10 @@
     grid-template-columns: 50fr 50fr;
   }
 
+  .contact-heading-tertiary {
+    font-size: 3.6rem;
+  }
+
   .contact-secondary--first,
   .contact-secondary--second {
     font-size: 3.6rem;
@@ -136,4 +140,65 @@
   .main-nav-link.nav-cta:visited7 {
     padding: 0.8rem 1.6rem;
   }
+
+  /* Landing */
+  .landing-hello {
+    font-size: 2.4rem;
+  }
+
+  .first-name {
+    font-size: 6.2rem;
+  }
+
+  .second-name {
+    font-size: 5.2rem;
+  }
+
+  .landing-description {
+    font-size: 1.6rem;
+  }
+
+  .btn,
+  .btn:link,
+  .btn:visited {
+    font-size: 1.6rem;
+    padding: 0.8rem 3.2rem;
+  }
+
+  /* About */
+  .about--grid {
+    width: 80rem;
+    grid-template-columns: 75fr 25fr;
+  }
+
+  .heading-secondary--first,
+  .heading-secondary--second {
+    font-size: 5.2rem;
+  }
+
+  .heading-secondary--second {
+    margin-top: -1rem;
+  }
+
+  /* Projects */
+  .projects,
+  .other-projects {
+    width: 80rem;
+  }
+
+  .project-content {
+    grid-template-rows: 20fr 20fr 60fr;
+    height: 350px;
+  }
+
+  /* Contact */
+  .contact {
+    width: 80rem;
+  }
+}
+
+/************************************/
+/*         899px - 768px          */
+/************************************/
+@media (max-width: 56em) {
 }

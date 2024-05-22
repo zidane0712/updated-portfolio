@@ -48,8 +48,10 @@
   color: var(--gray-color);
 }
 
-.heading-tertiary {
+.contact-heading-tertiary {
   text-align: center;
+  text-transform: uppercase;
+  font-size: 5.2rem;
   padding: 3.2rem 0;
   color: var(--lightest-color);
 }
