@@ -20,7 +20,7 @@
 
 .heading-secondary--first,
 .heading-secondary--second {
-  font-size: 7.4rem;
+  font-size: 6.2rem;
   text-transform: uppercase;
   font-weight: 800;
 }
@@ -35,7 +35,7 @@
 }
 
 .about--grid {
-  width: 130rem;
+  width: 110rem;
 
   display: grid;
   grid-template-columns: 60fr 40fr;
@@ -187,7 +187,7 @@
 }
 
 .experiences {
-  width: 130rem;
+  width: 110rem;
 }
 
 .experience-header {
