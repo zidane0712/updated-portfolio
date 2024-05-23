@@ -1,14 +1,6 @@
 /******************************/
 /*        NAVIGATION           */
 /******************************/
-.header-container {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 9999;
-}
-
 .header {
   display: flex;
   justify-content: space-between;
@@ -19,11 +11,9 @@
   top: 0;
   background-color: transparent;
   padding: 1.6rem 4.8rem;
-  z-index: 9999;
-}
 
-.header-others {
   background-color: var(--gray-color);
+  z-index: 9999;
 }
 
 .logo {
@@ -74,4 +64,30 @@
   color: var(--lightest-color);
   margin-bottom: 0;
   border-bottom: 0;
+}
+
+/* Mobile */
+.btn-mobile-nav {
+  border: none;
+  background: none;
+  cursor: pointer;
+
+  display: none;
+}
+
+.icon-mobile-nav,
+.icon-mobile-nav:link,
+.icon-mobile-nav:visited {
+  height: 4.8rem;
+  width: 4.8rem;
+  color: var(--main-color);
+}
+
+.icon-mobile-nav:hover,
+.icon-mobile-nav:active {
+  color: var(--lightest-color);
+}
+
+.icon-mobile-nav[name="close-outline"] {
+  display: none;
 }

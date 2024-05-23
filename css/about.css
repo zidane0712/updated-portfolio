@@ -4,14 +4,12 @@
 .section-about {
   background-color: var(--lightest-color);
   color: var(--gray-color);
-  height: 100vh;
 
   display: flex;
-  justify-content: center;
   align-items: center;
   flex-direction: column;
 
-  padding-top: 3.2rem;
+  padding: 8.6rem 0 8.6rem 0;
 }
 
 .about-contents {
@@ -182,7 +180,6 @@
   align-items: center;
   flex-direction: column;
 
-  padding-top: 3.2rem;
   padding-bottom: 6.4rem;
 }
 

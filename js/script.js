@@ -16,3 +16,15 @@ document.addEventListener("DOMContentLoaded", function () {
     console.log("Opening resume PDF");
   });
 });
+
+// For Mobile nav
+document.addEventListener("DOMContentLoaded", function () {
+  // For nav menu
+  const btnNavEl = document.querySelector(".btn-mobile-nav");
+  const headerEl = document.querySelector(".header");
+
+  btnNavEl.addEventListener("click", function () {
+    headerEl.classList.toggle("nav-open");
+    console.log("Click");
+  });
+});
