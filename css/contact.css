@@ -3,11 +3,13 @@
 /******************************/
 .section-contact {
   height: 100vh;
+
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   background-color: var(--gray-color);
+  padding: 8rem 0;
 }
 
 .contact {

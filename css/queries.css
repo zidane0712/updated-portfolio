@@ -300,7 +300,7 @@
   }
 
   .about--grid {
-    width: 70rem;
+    width: 65rem;
     grid-template-columns: none;
   }
 
@@ -314,7 +314,6 @@
   }
 
   .subheading {
-    justify-content: center;
     padding: 1.6rem 0 2.4rem 0;
   }
 
@@ -326,11 +325,20 @@
     padding-top: 0;
   }
 
+  .experiences {
+    width: 65rem;
+  }
+
   .experience-header {
     font-size: 2rem;
   }
 
   /* Projects */
+  .projects,
+  .other-projects {
+    width: 65rem;
+  }
+
   .grid {
     row-gap: 6.4rem;
   }
@@ -397,4 +405,63 @@
   .contact-me {
     text-align: center;
   }
+}
+
+/************************************/
+/*         768px - 426px          */
+/************************************/
+@media (max-width: 38em) {
+  /* Landing */
+  .landing {
+    width: 40rem;
+  }
+
+  .landing-img {
+    height: 150px;
+  }
+
+  .first-name {
+    font-size: 4.4rem;
+  }
+
+  .second-name {
+    font-size: 3rem;
+    padding-top: 0.5rem;
+  }
+
+  #typed-text-index {
+    display: none;
+  }
+
+  /* About */
+  .about--grid {
+    width: 40rem;
+  }
+
+  .heading-secondary--first,
+  .heading-secondary--second {
+    font-size: 3.6rem;
+  }
+
+  .subheading {
+    font-size: 2.4rem;
+  }
+
+  .heading-tertiary {
+    font-size: 3.6rem;
+  }
+
+  .grid-tools {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .experiences {
+    width: 40rem;
+  }
+
+  .experience {
+    margin: 4.8rem 2.4rem;
+  }
+
+  /* Projects */
 }
