@@ -270,7 +270,7 @@
 
   /* Landing */
   .landing {
-    width: 60rem;
+    width: 70rem;
 
     display: flex;
     flex-direction: column;
@@ -284,5 +284,117 @@
     width: auto;
 
     padding-bottom: 3.2rem;
+  }
+
+  /* About */
+  .about-img-box-sm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.6rem 0;
+  }
+
+  .about-img-sm {
+    display: block;
+    height: 150px;
+  }
+
+  .about--grid {
+    width: 70rem;
+    grid-template-columns: none;
+  }
+
+  .about-img {
+    display: none;
+  }
+
+  .heading-secondary--first,
+  .heading-secondary--second {
+    text-align: center;
+  }
+
+  .subheading {
+    justify-content: center;
+    padding: 1.6rem 0 2.4rem 0;
+  }
+
+  .about-content {
+    padding-left: 0;
+  }
+
+  .section-tools {
+    padding-top: 0;
+  }
+
+  .experience-header {
+    font-size: 2rem;
+  }
+
+  /* Projects */
+  .grid {
+    row-gap: 6.4rem;
+  }
+
+  .grid--3-cols {
+    grid-template-columns: none;
+  }
+
+  .project {
+    display: grid;
+    grid-template-columns: 55fr 45fr;
+  }
+
+  .project-content {
+    height: auto;
+  }
+
+  .project-img {
+    object-fit: cover;
+    height: 300px;
+  }
+
+  .project-title {
+    font-size: 2rem;
+    font-weight: 600;
+  }
+
+  .grid--other-projects {
+    grid-template-columns: 55fr 45fr;
+  }
+
+  /* Contact */
+  .grid--contact {
+    grid-template-columns: none;
+  }
+
+  .contact-form {
+    justify-self: center;
+    width: 50rem;
+  }
+
+  .contact-heading-tertiary {
+    padding: 4.8rem;
+    font-size: 5.2rem;
+  }
+
+  .form {
+    padding: 0 4.8rem;
+  }
+
+  .btn-container {
+    padding: 3.2rem 0;
+  }
+
+  .contact-design {
+    align-items: center;
+  }
+
+  .contact-secondary--first,
+  .contact-secondary--second {
+    font-size: 5.2rem;
+  }
+
+  .contact-me {
+    text-align: center;
   }
 }
