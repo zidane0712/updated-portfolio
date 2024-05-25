@@ -68,6 +68,10 @@
     padding-top: 6.4rem;
   }
 
+  .other-project-heading-tertiary {
+    padding-top: 0;
+  }
+
   .projects {
     width: 90rem;
   }
