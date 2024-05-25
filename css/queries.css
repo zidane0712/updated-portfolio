@@ -267,4 +267,22 @@
   .main-nav-link:visited {
     font-size: 3rem;
   }
+
+  /* Landing */
+  .landing {
+    width: 60rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .landing-img {
+    height: 250px;
+    width: auto;
+
+    padding-bottom: 3.2rem;
+  }
 }
