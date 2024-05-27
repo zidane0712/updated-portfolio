@@ -408,7 +408,7 @@
 }
 
 /************************************/
-/*         768px - 426px          */
+/*         768px - 375px          */
 /************************************/
 @media (max-width: 38em) {
   /* Landing */
@@ -456,7 +456,7 @@
   }
 
   .experiences {
-    width: 50rem;
+    width: 40rem;
   }
 
   .experience {
@@ -531,5 +531,73 @@
   .social {
     width: 4.4rem;
     height: 4.4rem;
+  }
+}
+
+/************************************/
+/*         376px - below          */
+/************************************/
+@media (max-width: 24em) {
+  html {
+    font-size: 46.25%;
+  }
+
+  /* Navigation */
+  .main-nav-link:link,
+  .main-nav-link:visited {
+    font-size: 2rem;
+  }
+
+  /* About */
+  .about-img-sm {
+    display: block;
+    height: 100px;
+  }
+
+  .heading-secondary--first,
+  .heading-secondary--second {
+    font-size: 3rem;
+  }
+
+  .about--grid {
+    width: 30rem;
+  }
+
+  .subheading {
+    font-size: 2rem;
+  }
+
+  .heading-tertiary {
+    font-size: 3rem;
+  }
+
+  .tools-img {
+    height: 8rem;
+    width: 8rem;
+  }
+
+  /* Projects */
+  .projects,
+  .other-projects {
+    width: 30rem;
+  }
+
+  .project-img {
+    object-fit: cover;
+    height: 150px;
+  }
+
+  /* Contact */
+  .contact-form {
+    width: 35rem;
+  }
+
+  .contact-heading-tertiary {
+    font-size: 3.6rem;
+  }
+
+  .contact-secondary--first,
+  .contact-secondary--second {
+    font-size: 3rem;
   }
 }
