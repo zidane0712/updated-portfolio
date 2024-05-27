@@ -456,7 +456,7 @@
   }
 
   .experiences {
-    width: 40rem;
+    width: 50rem;
   }
 
   .experience {
@@ -464,4 +464,72 @@
   }
 
   /* Projects */
+  .projects,
+  .other-projects {
+    width: 45rem;
+  }
+
+  .project {
+    display: grid;
+    grid-template-columns: none;
+  }
+
+  .project-title {
+    padding: 1.8rem;
+    text-align: center;
+  }
+
+  .project-tags {
+    justify-content: center;
+  }
+
+  .grid--other-projects {
+    grid-template-columns: none;
+    row-gap: 2rem;
+  }
+
+  .other-projects {
+    padding-bottom: 4.8rem;
+  }
+
+  .other-project-title {
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  /* Contact */
+  .section-contact {
+    height: auto;
+  }
+
+  .contact {
+    width: 40rem;
+  }
+
+  .contact-form {
+    width: 40rem;
+  }
+
+  .contact-heading-tertiary {
+    padding: 3.2rem 2.4rem;
+    font-size: 4.4rem;
+  }
+
+  .form {
+    padding: 0 2.4rem;
+  }
+
+  .btn-container {
+    padding: 1.6rem 0 3.2rem 0;
+  }
+
+  .contact-secondary--first,
+  .contact-secondary--second {
+    font-size: 3.6rem;
+  }
+
+  .social {
+    width: 4.4rem;
+    height: 4.4rem;
+  }
 }
